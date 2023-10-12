@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assignment6(Qs2).css">
+</head>
+<!-- 2. Build an HTML page with multiple paragraphs, each assigned a unique class name. Write CSS rules using
+class selectors to apply distinct styling to each paragraph. Follow the BEM naming convention and
+explain how you've named the classes.
+ -->
+
+
+<h3>BEM stands for Block, Element, and Modifier. It's a CSS naming convention for writing cleaner and more readable
+    CSS classes. It communicates component structure
+    It sets a consistent low-level of specificity for styling selectors</h3>
+
+
+
+<body>
+    <div class="card card--light">
+        <img class="card__image" src="./Image/BEM.PNG" alt="">
+        <h2 class="card__title">I'm a light card</h2>
+        <p class="card__body">The outermost parent element of the component is defined as the block.
+            <br>Inside of the component may be one or more children called elements.<br>
+            Flags on blocks or elements. Use them to change appearance, behavior, or state.
+        </p>
+    </div>
+    <div class="card card--dark">
+        <img class="card__image" src="./Image/BEM.PNG" alt="">
+        <h2 class="card__title">I'm a dark card</h2>
+        <p class="card__body">The outermost parent element of the component is defined as the block.
+            <br>Inside of the component may be one or more children called elements.<br>
+            Flags on blocks or elements. Use them to change appearance, behavior, or state.
+        </p>
+    </div>
+    <h3>Here, classname <mark> "card"</mark> is a Block. <mark> "card--dark" </mark> and <mark> "card--light"</mark> is a
+        Modifier.<mark> "card__image","card__body","card__title"</mark> are Elements which follows the BEM naming convension.</h3>
+</body>
+
+</html>

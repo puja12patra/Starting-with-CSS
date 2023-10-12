@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Qs1.css">
+    <style>
+        .internal{
+            color:blue;
+        }
+        .mixed
+        {
+            color: rgb(247, 239, 239);
+            background-color: rgb(96, 65, 128);
+        }
+    </style>
+</head>
+<!-- 1. Create a simple page with some div tags and show different ways to add CSS as well as what happens
+when you target the same elements with inline, internal, and external CSS. Also, utilize comments in the
+project where required. -->
+<body>
+
+   <div class="inline">
+    <h1 style="color:rgb(236, 108, 91);">A Red Heading using inline CSS</h1>
+   </div>
+
+   <div class="internal">
+    <h1 >A Blue Heading using internal CSS</h1>
+   </div>
+
+   <div class="external">
+    <h1 >A Green Heading using external CSS</h1>
+   </div>
+   
+   <div class="mixed">
+    
+     <h1 style="background-color: black;color: beige;">Test to set color of the heading using all three methods of CSS</h1>
+     <p>
+        Above Test prove that when we terget same element with different methods of adding CSS i.e inline,internal and external, the inline style tag get highest preferance. 
+       <br>
+       The Order of Preferance is - inline>internal>external
+    </p>
+   </div>
+   
+ 
+</body>
+</html>
